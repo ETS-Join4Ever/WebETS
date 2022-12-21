@@ -39,9 +39,9 @@ a:link {
 	color: black;
 }
 
-a:hover{
+a:hover{     				/*El cliente quiere que cuando el hover se active, ocupe el total del alto de la barra*/
 	text-decoration: none;
 	color: white;
 	background: black;
 	border-radius: 10px;
-	
+}
