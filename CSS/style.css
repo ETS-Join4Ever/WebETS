@@ -1,50 +1,6 @@
 * {
 	margin: 0;
-	//border: 1px solid;
-}
-
-header {
-	height: 12em;
-	background: linear-gradient(70deg, black, red, black);
-	text-align: center;
-}
-
-#logo {
-	margin-top: 0.39%;
-	height: 120px;
-	margin-bottom: 20px;
-}
-
-#navBar {
-	padding: 1%;
-	margin: auto;
-	font-family: sans-serif;
-	
-}
-
-td {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-#fondobarra {
-	background-color: white;
-	border-radius: 20px;
-	width: 450px;
-	margin: auto;
-}
-
-a:link {
-	text-decoration: none;
-	color: black;
-}
-
-a:hover{
-	text-decoration: none;
-	color: white;
-	background: black;
-	border-radius: 5px;
-	
+	/*border: 1px solid;*/
 }
 
 main {
