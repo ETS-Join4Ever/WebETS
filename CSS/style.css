@@ -15,39 +15,44 @@ header {
 	margin-bottom: 20px;
 }
 
-#navBar {
-	padding: 1%;
-	margin: auto;
-	font-family: sans-serif;
-	
-}
-
-td {
-	padding-left: 20px;
-	padding-right: 20px;
+#navBar{
+	border-collapse: collapse;
+	border-spacing: 5px;
 }
 
 #fondobarra {
-	background-color: white;
+	font-family: sans-serif;
 	border-radius: 20px;
+	background-color: white;
 	width: 450px;
 	margin: auto;
 }
 
-a {
-	padding: 7px;
-	margin: auto 5px auto 5px;
+/*Nueva Barra Navegación*/
+td{
+	padding: 8px 15px 8px 15px;
+	background-color: white;
+	border-radius: 20px;
+	width: 130px;
 }
 
-a:link {
+#botonIZ{
+	border-left: 0px;
+}
+
+td:hover{
+	padding: 7px 14px;
+	background-color: black;
+	border-radius: 20px;
+	width: 140px;
+	scale: 1.1;
+}
+td:hover a{color: white;}
+
+a{color: black;}
+
+a:link{
 	text-decoration: none;
-	color: black;	
-}
-
-a:hover{     				/*El cliente quiere que cuando el hover se active, ocupe el total del alto de la barra*/
-	color: white;
-	background: black;
-	border-radius: 4px;
 }
 
 footer {
@@ -58,4 +63,3 @@ footer {
 	color: white;
 	background: linear-gradient(70deg, black, red, black);
 }
-
