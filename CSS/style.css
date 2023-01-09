@@ -63,3 +63,15 @@ footer {
 	color: white;
 	background: linear-gradient(70deg, black, red, black);
 }
+/*parte javi*/
+img.mascota2{
+	float: right;
+	transform: scaleX(-1);
+	width: 190px;
+	height: 190px;
+}
+img.mascota{
+	float: left;
+	width: 190px;
+	height: 190px;
+}
