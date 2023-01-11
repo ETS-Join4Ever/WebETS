@@ -1,0 +1,11 @@
+#botonIZQ{
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#botonCEN{
+	border-radius: 0px;
+}
+#botonDER{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}

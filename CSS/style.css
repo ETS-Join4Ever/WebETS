@@ -36,16 +36,21 @@ td{
 	width: 130px;
 }
 
-#botonIZ{
-	border-left: 0px;
+#botonIZQ{
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#botonCEN{
+	border-radius: 0px;
+}
+#botonDER{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
 }
 
 td:hover{
-	padding: 7px 14px;
 	background-color: black;
 	border-radius: 20px;
-	width: 140px;
-	scale: 1.1;
 }
 td:hover a{color: white;}
 
