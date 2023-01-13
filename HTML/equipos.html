@@ -2,7 +2,6 @@
 <html lang="es">
 	<head>
 	<link rel="stylesheet" href="../CSS/style.css" />
-	<link rel="stylesheet" href="./CSS/equipos.css">
 		<title>
 			ETS-Mundial
 		</title>
@@ -20,21 +19,155 @@
 			<div id ="fondobarra">
 				<table id="navBar">
 					<tr>
-						<td id="botonIZQ">
-							<a href="equipos.html"> Equipos </a> <!--Info Participantes mundial-->
+						<td id="botonIZQ" class="barraNAV">
+							<a href="./equipos.html"> Equipos </a> <!--Info Participantes mundial-->
 						</td>
-						<td id="botonCEN">
-							<a href ="final.HTML"> PAGINA 2 </a> <!--La final del mundial-->
+						<td id="botonCEN" class="barraNAV">
+							<a href ="./final.html"> PAGINA 2 </a> <!--La final del mundial-->
 						</td>
-						<td id="botonDER">
-							<a href ="clips.html"> PAGINA 3 </a> <!--Clips / HighLights-->
+						<td id="botonDER" class="barraNAV">
+							<a href ="./clips.html"> PAGINA 3 </a> <!--Clips / HighLights-->
 						</td>
 					</tr>
 				</table>
 			</div>
 		</header>
 		<main>
-			
+			<div class="caja">
+				<h2 id="title">Grupos del Mundial</h2>
+				<table class="grupos">
+					<tr>
+						<th>Grupos A</th>
+						<th>Grupo B</th>
+						<th>Grupo C</th>
+						<th>Grupo D</th>
+					</tr>
+					<tr>
+						<td>
+							<table id="grupoA"> <!--Grupo A: Países Bajos, Senegal, Ecuador, Catar (anfitrión)-->
+								<tr>
+									<td id="Catar">
+										<a href="./Grupos/grupoA.html"><legend>Catar</legend>
+										<img src="../imagenes/balones/qatar.png" alt=""></a>
+									</td>
+									<td id="Ecuador">
+										<a href="./Grupos/grupoA.html"><legend>Ecuador</legend>
+											<img src="../imagenes/balones/ecuador.png" alt=""></a>
+									</td>
+								</tr>
+								<tr>
+									<td id="Senegal">
+										<a href="./Grupos/grupoA.html"><legend>Senegal</legend>
+											<img src="../imagenes/balones/senegal.png" alt=""></a>
+									</td>
+									<td id="PaisesBajos">
+										<a href="./Grupos/grupoA.html"><legend>Paises Bajos</legend>
+											<img src="../imagenes/balones/paisesbajos.png" alt=""></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table id="grupoB"> <!--Grupo B: Inglaterra, Estados Unidos, Irán, Gales.-->
+								<tr>
+									<td id="Inglaterra">
+										<a href=""><legend>Inglaterra</legend>
+											<img src="../imagenes/balones/inglaterra.png" alt=""></a>
+									</td>
+									<td id="EstadosUnidos">
+										<a href=""><legend>Estados Unidos</legend>
+											<img src="../imagenes/balones/usa.png" alt=""></a>
+									</td>
+								</tr>
+								<tr>
+									<td id="Iran">
+										<a href=""><legend>Íran</legend>
+											<img src="../imagenes/balones/iran.png" alt=""></a>
+									</td>
+									<td id="Gales">
+										<a href=""><legend>Gales</legend>
+											<img src="../imagenes/balones/gales.png" alt=""></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table id="grupoC"> <!--Grupo C: Argentina, Polonia, México, Arabia Saudí-->
+								<tr>
+									<td id="Argentina">
+										<a href=""><legend>Argentina</legend>
+											<img src="../imagenes/balones/argentina.png" alt=""></a>
+									</td>
+									<td id="Polinia">
+										<a href=""><legend>Polonia</legend>
+											<img src="../imagenes/balones/polonia.png" alt=""></a>
+									</td>
+								</tr>
+								<tr>
+									<td id="Mexico">
+										<a href=""><legend>Mexíco</legend>
+											<img src="../imagenes/balones/mexico.png" alt=""></a>
+									</td>
+									<td id="arabiaSaudi">
+										<a href=""><legend>Arabia Saudí</legend>
+											<img src="../imagenes/balones/arabia.png" alt=""></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table id="grupoD"> <!--Grupo D: Francia, Australia, Túnez, Dinamarca.-->
+								<tr>
+									<td id="Francia">
+										<a href=""><legend>Francia</legend>
+											<img src="../imagenes/balones/francia.png" alt=""></a>
+									</td>
+									<td id="Australia">
+										<a href=""><legend>Australia</legend>
+											<img src="../imagenes/balones/australia.png" alt=""></a>
+									</td>
+								</tr>
+								<tr>
+									<td id="Tunez">
+										<a href=""><legend>Túnez</legend>
+											<img src="../imagenes/balones/tunez.png" alt=""></a>
+									</td>
+										<td id="Dinamarca">
+										<a href=""><legend>Dinamarca</legend>
+											<img src="../imagenes/balones/dinamarca.png" alt=""></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr> <!--Celda de prueba. Usala de plantilla para que lo hagas tu mismo-->
+						<td> <!--En cada td insertamos una nueva tabla para colocar los elementos-->
+							<table id="grupoD"> <!--Grupo E: Japón, España, Alemania, Costa Rica.-->
+								<tr>
+									<td id="nombrePais">
+										<a href=""><legend>nombrePais</legend>
+											<img src="../imagenes/balones/nombrepais.png" alt=""></a>
+									</td>
+									<td id="nombrePais">
+										<a href=""><legend>nombrePais</legend>
+											<img src="../imagenes/balones/nombrepais.png" alt=""></a>
+									</td>
+								</tr>
+								<tr>
+									<td id="nombrePais">
+										<a href=""><legend>nombrePais</legend>
+											<img src="../imagenes/balones/nombrepais.png" alt=""></a>
+									</td>
+									<td id="nombrePais">
+										<a href=""><legend>nombrePais</legend>
+											<img src="../imagenes/balones/nombrepais.png" alt=""></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
 		</main>
 		<footer>
 			
