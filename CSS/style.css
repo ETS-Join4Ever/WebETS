@@ -111,6 +111,7 @@ Grupo H: Portugal, República de Corea, Uruguay, Ghana
 	width: 99.7%;
 	height: 90%;
 	border: 3px solid blue;
+	margin-bottom: 100px;
 	/* overflow: scroll; */
 }
 
@@ -159,8 +160,11 @@ Grupo H: Portugal, República de Corea, Uruguay, Ghana
 }
 .grupos td{
 	padding-bottom: 20px;
-	margin: 0;
+	margin: auto;
 	background-color: white;
+}
+.grupos table{
+	margin: auto;
 }
 #grupoA{
 	border: 2px solid rgb(0, 109, 129);
