@@ -2,7 +2,7 @@
 	margin: 0;
 }
 
-
+/*CABECERA*/
 header {
 	height: 12em;
 	background: linear-gradient(70deg, black, red, black);
@@ -27,14 +27,21 @@ header {
 	width: 450px;
 	margin: auto;
 }
+/**/
 
 /*Nueva Barra Navegación*/
-td{
+.barraNAV{
 	padding: 8px 15px 8px 15px;
 	background-color: white;
 	border-radius: 20px;
 	width: 130px;
 }
+.barraNAV:hover{
+	background-color: black;
+	border-radius: 20px;
+}
+.barraNAV:hover a{color: white;}
+
 
 #botonIZQ{
 	border-bottom-right-radius: 0px;
@@ -48,21 +55,22 @@ td{
 	border-top-left-radius: 0px;
 }
 
-td:hover{
-	background-color: black;
-	border-radius: 20px;
-}
-td:hover a{color: white;}
-
 a{color: black;}
 
 a:link{
 	text-decoration: none;
 }
+/**/
 
+/*MAIN*/
+/* main{
+	height: 99%;
+} */
+/**/
 footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
+	left: 0;
 	width: 100%;
 	height: 70px;
 	color: white;
@@ -80,3 +88,52 @@ img.mascota{
 	width: 190px;
 	height: 190px;
 }
+/**/
+
+/*Página EQUIPOS*/
+
+/* Equipos de Keliam
+Grupo A: Países Bajos, Senegal, Ecuador, Catar (anfitrión)
+Grupo B: Inglaterra, Estados Unidos, Irán, Gales.
+Grupo C: Argentina, Polonia, México, Arabia Saudí
+Grupo D: Francia, Australia, Túnez, Dinamarca.*/
+.caja{
+	width: 99.6%;
+	height: 90%;
+	border: 3px solid blue;
+	/* overflow: scroll; */
+}
+.grupos{
+	margin: auto;
+	border: 4px solid red;
+	background-color: rgba(220, 20, 60, 0.722);
+}
+.grupos th{
+	border: 3px solid green;
+	font: bold 20px arial;
+}
+.grupos legend{
+	text-align: center;
+	position: relative;
+	top: 105px;
+	font: bold 16px arial;
+}
+.grupos img{
+	width: 86px;
+	height: 88px;
+	margin: auto;
+	display: block;
+}
+.grupos td{
+	padding-bottom: 20px;
+	margin: 0;
+	background-color: white;
+}
+#grupoA{
+	border: 2px solid rgb(0, 109, 129);
+}
+#grupoA td{
+	border: 2px solid rgb(255, 0, 191);
+	font: normal 18 arial;
+}
+/**/
