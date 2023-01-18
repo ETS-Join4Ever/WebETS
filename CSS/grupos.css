@@ -4,15 +4,17 @@
 
 /*CABECERA*/
 header {
-	height: 12em;
+	height: 80px;
 	background: linear-gradient(70deg, black, red, black);
 	text-align: center;
 }
 
 #logo {
+	position: relative;
+	right: 750px;
 	margin-top: 0.39%;
-	height: 120px;
-	margin-bottom: 20px;
+	height: 60px;
+	/* margin-bottom: 20px; */
 }
 
 #navBar{
@@ -23,9 +25,11 @@ header {
 #fondobarra {
 	font-family: sans-serif;
 	border-radius: 20px;
-	background-color: white;
-	width: 450px;
+	background-color: rgb(25, 0, 255);
+	width: 320px;
 	margin: auto;
+	position: relative;
+	top: -30px;
 }
 /**/
 
@@ -42,6 +46,13 @@ header {
 }
 .barraNAV:hover a{color: white;}
 
+#barra{
+	border: 2px solid rgb(0, 109, 129);
+	width: 90px;
+	height: 110px;
+	border-radius: 20px;
+	background-color: white;
+}
 
 #botonIZQ{
 	border-bottom-right-radius: 0px;
@@ -67,7 +78,7 @@ a:link{
 	height: 99%;
 } */
 /**/
-footer {
+/* footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -75,13 +86,15 @@ footer {
 	height: 70px;
 	color: white;
 	background: linear-gradient(70deg, black, red, black);
-}
+} */
 /*parte javi*/
 img.mascota2{
-	float: right;
-	transform: scaleX(-1);
-	width: 190px;
-	height: 190px;
+	width: 70px;
+	position: relative;
+	float: left;
+	left: 15px;
+	transform: rotateZ(-10deg);
+	filter: drop-shadow(-1px 3px 1px rgb(117, 23, 0));
 }
 img.mascota{
 	float: left;
@@ -89,3 +102,19 @@ img.mascota{
 	height: 190px;
 }
 /**/
+
+/*Tabla Caracteristicass Grupo*/
+
+.caracteristicas{
+	margin: auto;
+	margin-top: 130px;
+	background-color: green;
+	border: solid 2px purple;
+	height: 1400px;
+	width: 1200px;
+}
+
+.caracteristicas td{
+	width: 600px;
+	border: solid 2px yellow;
+}
