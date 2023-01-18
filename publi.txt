@@ -1,0 +1,37 @@
+CSS:
+
+/*Publicidad*/
+.cajaPubli{
+	position: absolute;
+	bottom: 160px;
+	left: 15px;
+	background-color: rgba(255, 255, 255, 0);
+	width: 230px;
+	height: 550px;
+	border: 1px solid rgb(0, 0, 0);
+	font: normal 9px "Verdana";
+	text-align: center;
+}
+.iconEquis{
+	background-color: white;
+	margin: 0px;
+
+}
+.cajaPubli h3{margin-bottom: 4px;}
+ #publi{
+	margin: auto;
+	width: 216px;
+	display: flex;
+	/* position: absolute;
+	bottom: 213px;
+	left: 15px; */
+
+ }
+/**/
+
+HTML:
+
+<!-- <div class="cajaPubli">
+					<span class="iconEquis"><i class="glyphicon glyphicon-remove"></i></span><h3>PUBLICIDAD</h3>
+					<video src="/imagenes/olvidona.mp4" id="publi" autoplay muted loop controls></video>
+				</div> -->
