@@ -36,7 +36,6 @@ header {
 	border-radius: 20px;
 	width: 130px;
 	transition: background-color .5s;
-	box-shadow: 0 7px 0 #7f7f7f;
 
 }
 .barraNAV:hover{
@@ -70,13 +69,14 @@ a:link{
 	height: 99%;
 } */
 /**/
-footer {
-	position: fixed;
-	bottom: 0;
+.footer {
+	/* position: block; */
 	left: 0;
+	bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
 	width: 100%;
-	height: 70px;
-	color: white;
+	height: 83px;
 	background: linear-gradient(70deg, black, red, black);
 }
 /*parte javi*/
@@ -85,12 +85,24 @@ img.mascota2{
 	transform: scaleX(-1);
 	width: 190px;
 	height: 190px;
+	filter: opacity(0%);
+	transition: filter 0.5s;
+
 }
 img.mascota{
 	float: left;
 	width: 190px;
 	height: 190px;
+	filter: opacity(0%);
+	transition: filter 0.5s;
 }
+header:hover .mascota{
+	filter: opacity(100%);
+}
+header:hover .mascota2{
+	filter: opacity(100%);
+}
+
 /**/
 
 /*Página EQUIPOS*/
@@ -108,27 +120,37 @@ Grupo G: Brasil,﻿ Suiza, Camerún, Serbia
 Grupo H: Portugal, República de Corea, Uruguay, Ghana
 */
 .caja{
-	width: 99.7%;
-	height: 90%;
-	border: 3px solid blue;
-	margin-bottom: 100px;
-	/* overflow: scroll; */
+	width: 100%;
+	height: 656px;
+	margin-bottom: 0px;
+	background-image: linear-gradient(180deg, #05a562, #141414);
+}
+#bgEquipos{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 105%;
+	min-height: 100%;
+	z-index: -2;
+	background: linear-gradient(70deg, black, red, black);
 }
 
+
+
 #title{
-	margin: 20px auto;
-	padding: 10px;
+	margin:auto;
+	padding: 2px;
 	text-align: center;
 	font: bold 48px arial;
 	text-transform: uppercase;
-	background-color: rgb(255, 255, 255);
+	/* background-color: rgb(255, 255, 255); */
 	color: rgb(0, 0, 0);
 	width: 600px;
 	border-radius: 10px;
 	transition: border-radius 1s, scale 1s, color 1s, background-color 1s, box-shadow .4s;
 
 }
-#title:hover{
+.grupos:hover #title{
 	border-top-left-radius: 40px;
 	border-bottom-right-radius: 40px;
 	scale: 1.1;
@@ -137,40 +159,130 @@ Grupo H: Portugal, República de Corea, Uruguay, Ghana
 	box-shadow: 0 7px 0 #7f7f7f;
 }
 
+
 .grupos{
 	margin: auto;
-	border: 4px solid red;
-	background-color: rgba(220, 20, 60, 0.722);
+	margin-bottom: 0px;
+	/* background-color: rgba(220, 20, 60, 0.722); */
+	width: 880px;
 }
 .grupos th{
-	border: 3px solid green;
-	font: bold 20px arial;
+	font: bold 28px arial;
+	color: white;
+	text-decoration: none;
+}
+.grupos th>a{
+	color: white;
+	text-shadow: 1px 2px 3px black;
+	transition: all .5s;
+}
+/* .grupos:hover #title */
+/* .grupos td > table:hover .grupos th */
+.grupos th a:hover {
+	text-decoration: underline;
+	color: rgb(192, 192, 192);	
+	text-shadow: 2px 3px 4px rgb(0, 0, 0);
+
 }
 .grupos legend{
 	text-align: center;
 	position: relative;
-	top: 105px;
-	font: bold 16px arial;
+	top: 85px;
+	text-transform: uppercase;
+	font: 13px/1 'system-ui', sans-serif;
+	font-weight: bold;
+	color: #871537;
+	text-shadow: 0px 4px 4px rgb(153 50 50 / 33%);
 }
 .grupos img{
-	width: 86px;
-	height: 88px;
+	width: 84px;
+	height: 86px;
 	margin: auto;
 	display: block;
+	position: relative;
+	bottom: 20px;
 }
 .grupos td{
-	padding-bottom: 20px;
 	margin: auto;
-	background-color: white;
+	margin-bottom: 0px;
 }
+
+#fondoTitle {
+	background-color: rgba(255, 255, 255, 0);
+	padding: 8px 0px;
+}
+
+.grupos tr{margin: 0px;}
+
 .grupos table{
 	margin: auto;
 }
-#grupoA{
-	border: 2px solid rgb(0, 109, 129);
+.grupos td > table{
+	border-spacing: 5px;
 }
-#grupoA td{
-	border: 2px solid rgb(255, 0, 191);
-	font: normal 18 arial;
+
+.grupos td > table td{
+	border: 2px solid rgb(0, 109, 129);
+	width: 90px;
+	height: 110px;
+	border-radius: 20px;
+	background-color: white;
+	transition: drop-shadow .3s, brightness .3s, scale .3s;
+}
+.grupos td > table td:hover{
+	filter:drop-shadow(1px 3px 1px);
+	filter:brightness(120%);
+	scale: 1.1;
 }
 /**/
+
+/*Publicidad*/
+.cajaPubli{
+	position: absolute;
+	bottom: 160px;
+	left: 15px;
+	background-color: rgba(255, 255, 255, 0);
+	width: 230px;
+	height: 550px;
+	border: 1px solid rgb(0, 0, 0);
+	font: normal 9px "Verdana";
+	text-align: center;
+}
+.iconEquis{
+	background-color: white;
+	margin: 0px;
+
+}
+.cajaPubli h3{margin-bottom: 4px;}
+
+ #publi{
+	margin: auto;
+	width: 216px;
+	display: flex;
+	/* position: absolute;
+	bottom: 213px;
+	left: 15px; */
+ }
+/**/
+
+/*Framcoa*/
+.cajaFrancia{
+	position: relative;
+	top: 5px;
+	height: 110px;
+	overflow: hidden;
+}
+.cajaFrancia:hover #fotoFrancia{
+	top: 0px;
+}
+.cajaFrancia:hover #fotoFrancia{
+	top: -102px;
+}
+#fotoFrancia{
+	position: relative;
+	top: 100px;
+	transition: all .5s;
+}
+#bandera{
+	position: relative;
+}

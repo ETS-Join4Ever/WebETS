@@ -8,13 +8,11 @@
 	</head>
 	
 	<body>
-		<div class="gif">
-			<img class="mascota" id="qatar" src="../imagenes/mascotaqatar.gif">
-			<img class="mascota2" id="qatar" src="../imagenes/mascotaqatar.gif">
-		</div>
-		<!--parte javi-->
-
 		<header>
+			<div class="gif">
+				<img class="mascota" id="qatar" src="../imagenes/mascotaqatar.gif">
+				<img class="mascota2" id="qatar" src="../imagenes/mascotaqatar.gif">
+			</div>
 			<a href="index.HTML"><img src="../imagenes/logo-qatar-blanco.png" id = "logo"></img></a>
 			<div id ="fondobarra">
 				<table id="navBar">
@@ -34,16 +32,17 @@
 		</header>
 		<main>
 			<div class="caja">
-				<h2 id="title">Grupos del Mundial</h2>
+				<!-- <h2 id="title">Grupos del Mundial</h2> -->
 				<table class="grupos">
 					<tr>
-						<th>Grupos A</th>
-						<th>Grupo B</th>
-						<th>Grupo C</th>
-						<th>Grupo D</th>
-						
+						<td colspan="4" id="fondoTitle"><h2 id="title">Grupos del Mundial</h2></td>
 					</tr>
-					
+					<tr>
+						<th><a href="./Grupos/grupoA.html">Grupo A</a></th> 
+						<th><a href="./Grupos/grupoB.html">Grupo B</a></th>
+						<th><a href="./Grupos/grupoC.html">Grupo C</a></th>
+						<th><a href="./Grupos/grupoD.html">Grupo D</a></th>
+					</tr>
 					<tr>
 						<td>
 							<table id="grupoA"> <!--Grupo A: Países Bajos, Senegal, Ecuador, Catar (anfitrión)-->
@@ -73,21 +72,21 @@
 							<table id="grupoB"> <!--Grupo B: Inglaterra, Estados Unidos, Irán, Gales.-->
 								<tr>
 									<td id="Inglaterra">
-										<a href=""><legend>Inglaterra</legend>
+										<a href="./Grupos/grupoB.html"><legend>Inglaterra</legend>
 											<img src="../imagenes/balones/inglaterra.png" alt=""></a>
 									</td>
 									<td id="EstadosUnidos">
-										<a href=""><legend>Estados Unidos</legend>
+										<a href="./Grupos/grupoB.html"><legend>E.E.U.U</legend>
 											<img src="../imagenes/balones/usa.png" alt=""></a>
 									</td>
 								</tr>
 								<tr>
 									<td id="Iran">
-										<a href=""><legend>Íran</legend>
+										<a href="./Grupos/grupoB.html"><legend>Íran</legend>
 											<img src="../imagenes/balones/iran.png" alt=""></a>
 									</td>
 									<td id="Gales">
-										<a href=""><legend>Gales</legend>
+										<a href="./Grupos/grupoB.html"><legend>Gales</legend>
 											<img src="../imagenes/balones/gales.png" alt=""></a>
 									</td>
 								</tr>
@@ -97,21 +96,21 @@
 							<table id="grupoC"> <!--Grupo C: Argentina, Polonia, México, Arabia Saudí-->
 								<tr>
 									<td id="Argentina">
-										<a href=""><legend>Argentina</legend>
+										<a href="./Grupos/grupoC.html"><legend>Argentina</legend>
 											<img src="../imagenes/balones/argentina.png" alt=""></a>
 									</td>
 									<td id="Polinia">
-										<a href=""><legend>Polonia</legend>
+										<a href="./Grupos/grupoC.html"><legend>Polonia</legend>
 											<img src="../imagenes/balones/polonia.png" alt=""></a>
 									</td>
 								</tr>
 								<tr>
 									<td id="Mexico">
-										<a href=""><legend>Mexíco</legend>
+										<a href="./Grupos/grupoC.html"><legend>Mexíco</legend>
 											<img src="../imagenes/balones/mexico.png" alt=""></a>
 									</td>
 									<td id="arabiaSaudi">
-										<a href=""><legend>Arabia Saudí</legend>
+										<a href="./Grupos/grupoC.html"><legend>Arabia Saudí</legend>
 											<img src="../imagenes/balones/arabia.png" alt=""></a>
 									</td>
 								</tr>
@@ -121,21 +120,25 @@
 							<table id="grupoD"> <!--Grupo D: Francia, Australia, Túnez, Dinamarca.-->
 								<tr>
 									<td id="Francia">
-										<a href=""><legend>Francia</legend>
-											<img src="../imagenes/balones/francia.png" alt=""></a>
+										<a href="./Grupos/grupoD.html">
+											<div class="cajaFrancia">
+												<legend>Francia</legend>
+												<img id="bandera" src="../imagenes/balones/francia.png" alt="">
+												<img id="fotoFrancia" src="../imagenes/nuevaBanderaFrancia.jpg" alt="">
+											</div></a>
 									</td>
 									<td id="Australia">
-										<a href=""><legend>Australia</legend>
+										<a href="./Grupos/grupoD.html"><legend>Australia</legend>
 											<img src="../imagenes/balones/australia.png" alt=""></a>
 									</td>
 								</tr>
 								<tr>
 									<td id="Tunez">
-										<a href=""><legend>Túnez</legend>
+										<a href="./Grupos/grupoD.html"><legend>Túnez</legend>
 											<img src="../imagenes/balones/tunez.png" alt=""></a>
 									</td>
 										<td id="Dinamarca">
-										<a href=""><legend>Dinamarca</legend>
+										<a href="./Grupos/grupoD.html"><legend>Dinamarca</legend>
 											<img src="../imagenes/balones/dinamarca.png" alt=""></a>
 									</td>
 								</tr>
@@ -143,31 +146,39 @@
 						</td>
 					</tr>
 					<tr>
-						<th>Grupo E</th>
-						<th>Grupo F</th>
-						<th>Grupo G</th>
-						<th>Grupo H</th>
+						<th><a href="./Grupos/grupoE.html">Grupo E</a></th> 
+						<th><a href="./Grupos/grupoF.html">Grupo F</a></th>
+						<th><a href="./Grupos/grupoG.html">Grupo G</a></th>
+						<th><a href="./Grupos/grupoH.html">Grupo H</a></th>
 					</tr>
 					<tr> <!--Celda de prueba. Usala de plantilla para que lo hagas tu mismo-->
 						<td> <!--En cada td insertamos una nueva tabla para colocar los elementos-->
 							<table id="grupoE"> <!--Grupo E: Japón, España, Alemania, Costa Rica.-->
 								<tr>
 									<td id="España">
-										<a href=""><legend>España</legend>
-											<img src="../imagenes/balones/espana.png" alt=""></a>
+										<a href="./Grupos/grupoE.html">
+											<div class="cajaFrancia">
+												<legend>España</legend>
+												<img id="bandera" src="../imagenes/balones/espana.png" alt="">
+												<img id="fotoFrancia" src="../imagenes/españita.png" alt="">
+											</div></a>
 									</td>
 									<td id="CostaRica">
-										<a href=""><legend>Costa Rica</legend>
+										<a href="./Grupos/grupoE.html"><legend>Costa Rica</legend>
 											<img src="../imagenes/balones/costarica.png" alt=""></a>
 									</td>
 								</tr>
 								<tr>
 									<td id="Alemania">
-										<a href=""><legend>Alemania</legend>
-											<img src="../imagenes/balones/alemania.png" alt=""></a>
+										<a href="./Grupos/grupoE.html">
+											<div class="cajaFrancia">
+												<legend>Alemania</legend>
+												<img id="bandera" src="../imagenes/balones/alemania.png" alt="">
+												<img id="fotoFrancia" src="../imagenes/sorpresa.jpg" alt="">
+											</div></a>
 									</td>
 									<td id="Japon">
-										<a href=""><legend>Japon</legend>
+										<a href="./Grupos/grupoE.html"><legend>Japon</legend>
 											<img src="../imagenes/balones/japon.png" alt=""></a>
 									</td>
 								</tr>
@@ -177,21 +188,21 @@
 							<table id="grupoF"> <!--Grupo E: Japón, España, Alemania, Costa Rica.-->
 								<tr>
 									<td id="Belgica">
-										<a href=""><legend>Bélgica</legend>
+										<a href="./Grupos/grupoF.html"><legend>Bélgica</legend>
 											<img src="../imagenes/balones/belgica.png" alt=""></a>
 									</td>
 									<td id="Canada">
-										<a href=""><legend>Canadá</legend>
+										<a href="./Grupos/grupoF.html"><legend>Canadá</legend>
 											<img src="../imagenes/balones/canada.png" alt=""></a>
 									</td>
 								</tr>
 								<tr>
 									<td id="Marruecos">
-										<a href=""><legend>Marruecos</legend>
+										<a href="./Grupos/grupoF.html"><legend>Marruecos</legend>
 											<img src="../imagenes/balones/marruecos.png" alt=""></a>
 									</td>
 									<td id="Croacia">
-										<a href=""><legend>Croacia</legend>
+										<a href="./Grupos/grupoF.html"><legend>Croacia</legend>
 											<img src="../imagenes/balones/croacia.png" alt=""></a>
 									</td>
 								</tr>
@@ -201,21 +212,21 @@
 							<table id="grupoG"> <!--Grupo E: Japón, España, Alemania, Costa Rica.-->
 								<tr>
 									<td id="Brasil">
-										<a href=""><legend>Brasil</legend>
+										<a href="./Grupos/grupoG.html"><legend>Brasil</legend>
 											<img src="../imagenes/balones/brasil.png" alt=""></a>
 									</td>
 									<td id="CostaRica">
-										<a href=""><legend>Serbia</legend>
+										<a href="./Grupos/grupoG.html"><legend>Serbia</legend>
 											<img src="../imagenes/balones/serbia.png" alt=""></a>
 									</td>
 								</tr>
 								<tr>
 									<td id="Suiza">
-										<a href=""><legend>Suiza</legend>
+										<a href="./Grupos/grupoG.html"><legend>Suiza</legend>
 											<img src="../imagenes/balones/suiza.png" alt=""></a>
 									</td>
 									<td id="Camerun">
-										<a href=""><legend>Camerún</legend>
+										<a href="./Grupos/grupoG.html"><legend>Camerún</legend>
 											<img src="../imagenes/balones/camerun.png" alt=""></a>
 									</td>
 								</tr>
@@ -225,21 +236,21 @@
 							<table id="grupoH"> <!--Grupo E: Japón, España, Alemania, Costa Rica.-->
 								<tr>
 									<td id="Portugal">
-										<a href=""><legend>Portugal</legend>
+										<a href="./Grupos/grupoH.html"><legend>Portugal</legend>
 											<img src="../imagenes/balones/portugal.png" alt=""></a>
 									</td>
 									<td id="Ghana">
-										<a href=""><legend>Ghana</legend>
+										<a href="./Grupos/grupoH.html"><legend>Ghana</legend>
 											<img src="../imagenes/balones/ghana.png" alt=""></a>
 									</td>
 								</tr>
 								<tr>
 									<td id="Uruguay">
-										<a href=""><legend>Uruguay</legend>
+										<a href="./Grupos/grupoH.html"><legend>Uruguay</legend>
 											<img src="../imagenes/balones/uruguay.png" alt=""></a>
 									</td>
 									<td id="CoreaDelSur">
-										<a href=""><legend>Corea del Sur</legend>
+										<a href="./Grupos/grupoH.html"><legend>Corea del Sur</legend>
 											<img src="../imagenes/balones/coreasur.png" alt=""></a>
 									</td>
 								</tr>
@@ -247,10 +258,10 @@
 						</td>
 					</tr>
 				</table>
+				<!-- <iframe id="bgEquipos" width="560" height="315" src="https://www.youtube.com/embed/videoseries?autoplay=1&mute=1&loop=1&controls=0&amp;list=PLHI2L2Pbfbltf52EOgz5cv83sAiAo8btu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 			</div>
 		</main>
-		<footer>
+		<div class="footer">
 			
-		</footer>
+		</div>
 	</body>	
-</html>
