@@ -1,6 +1,11 @@
 * {
 	margin: 0;
 }
+body{
+	font-family: "Barlow Semi Condensed", sans-serif;
+	line-height: 25px;
+}
+
 
 /*CABECERA*/
 header {
@@ -29,7 +34,7 @@ header {
 	width: 320px;
 	margin: auto;
 	position: relative;
-	top: -30px;
+	top: -40px;
 }
 /**/
 
@@ -186,4 +191,61 @@ img.mascota{
 .caracteristicas td{
 	width: 600px;
 	border: solid 2px yellow;
+}
+
+#prueba{
+	width: 1025px;
+    height: 1177px;
+	overflow: hidden;
+	margin: auto;
+	border: 3px solid yellow;
+	background-color: black;
+	color: rgb(241, 200, 200);
+	margin-top:60px;
+	
+
+
+}
+
+.fotoEquipo{
+	background-color: aqua;
+	height: 518px;
+    width: 1025px;
+	background-image: url(https://e00-especiales-marca.uecdn.es/mundial/images/selecciones/cintillos/qatar3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.entrenador{
+    height: 323px;
+    width: 396px;
+	background-color: #871537;
+	border: 1px solid yellow;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.entrenador img{
+	height: 206px;
+    width: 209px;
+	margin: auto;
+	background-color: white;
+	
+}
+
+.caracteristicasequipo{
+	height: 649px;
+	width: 627px;
+	background-color: crimson;
+	position: relative;
+	float: right;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.caracteristicasequipo img{
+	margin: 10px;
+	width: 283px;
+	position: relative;
+	left: 142px;
+	bottom: 19px;
 }
