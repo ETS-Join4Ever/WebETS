@@ -7,12 +7,12 @@ header {
 	height: 12em;
 	background: linear-gradient(70deg, black, red, black);
 	text-align: center;
+	box-shadow: inset 0 0 10px black;
 }
 
 #logo {
-	margin-top: 0.39%;
+	margin-top: 30px;
 	height: 120px;
-	margin-bottom: 20px;
 }
 
 #navBar{
@@ -73,6 +73,73 @@ a:link{
 	height: 99%;
 } */
 /**/
+
+/*Menu PAG PRINCIP*/
+.menu{
+	background-color: black;
+	width: 1879px;
+	height: 739px;
+	position: relative;
+	margin-left: 0px;
+}
+.botonMenu{
+	float: left;
+	margin: auto;
+	width: 620px;
+	height: 739px;
+	overflow: hidden;
+}
+.botonMenu img{
+	bottom: 100px;
+	position: relative;
+	right: 240px;
+	scale: 1;
+	filter: blur(1px);
+	filter: saturate(0);
+	transition: all 0.5s;
+}
+.botonMenu:hover img{
+	scale: 1.1;
+	filter: blur(10px);
+	filter: saturate(100%);
+}
+.botonMenu h2{
+	background-color: rgb(255, 41, 41);
+	color: rgb(255, 255, 255);
+	height: 56px;
+	width: 250px;
+	position: relative;
+	z-index: 2;
+	margin: auto;
+	top: 80px;
+	text-align: center;
+	font: bold 42px Verdana;
+	text-transform: uppercase;
+	border-radius: 5px;
+	text-shadow: 0px 1px 11px black;
+	transition: top 0.7s, border-radius 0.8s 0.2s;
+}
+.botonMenu:hover h2{
+	top: 10px;
+	border-radius: 10px 100px / 120px;
+}
+.botonMenu div{
+	position: relative;
+	z-index: 2;
+	height: 70px;
+	width: 300px;
+	top: 300px;
+	margin: auto;
+	overflow: hidden;
+}
+#clips{width: 400px;}
+#clips h2{width: 380px;}
+#fotoFinal{
+	top: -77px;
+	width: 1000px;
+	left: -193px;
+}
+/**/
 .footer {
 	/* position: block; */
 	left: 0;
@@ -91,7 +158,6 @@ img.mascota2{
 	height: 190px;
 	filter: opacity(0%);
 	transition: filter 0.5s;
-
 }
 img.mascota{
 	float: left;
