@@ -1,0 +1,227 @@
+* {
+	margin: 0;
+}
+
+main {
+	width: 100%;
+	margin: 0px;
+}
+
+/*CABECERA*/
+header {
+	width: 100%;
+	height: 12em;
+	background: linear-gradient(70deg, black, red, black);
+	text-align: center;
+}
+
+#logo {
+	margin-top: 0.39%;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+#navBar{
+	/*border: 1px solid black;*/
+	border-collapse: collapse;
+	border-spacing: 5px;
+}
+
+#fondobarra {
+	
+	font-family: sans-serif;
+	border-radius: 20px;
+	background-color: white;
+	width: 450px;
+	margin: auto;
+}
+/**/
+
+/*Nueva Barra Navegación*/
+.barraNAV{
+	padding: 8px 15px 8px 15px;
+	background-color: white;
+	border-radius: 20px;
+	width: 130px;
+	transition: background-color .5s;
+}
+.barraNAV:hover{
+	background-color: black;
+	border-radius: 20px;
+}
+.barraNAV:hover a{color: white;}
+
+
+#botonIZQ{
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#botonCEN{
+	border-radius: 0px;
+}
+#botonDER{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+a{color: black;}
+
+a:link{
+	text-decoration: none;
+}
+
+.mascota2{
+	float: right;
+	transform: scaleX(-1);
+	width: 190px;
+	height: 190px;
+	filter: opacity(0%);
+	transition: filter 0.5s;
+}
+.mascota{
+	float: left;
+	width: 190px;
+	height: 190px;
+	filter: opacity(0%);
+	transition: filter 0.5s;
+}
+header:hover .mascota{
+	filter: opacity(100%);
+}
+header:hover .mascota2{
+	filter: opacity(100%);
+}
+
+/*--------------------------------*/
+
+body {
+	height: 2000%;
+	width: 100%;
+	background-image: url("https://wallpaper.dog/large/17048551.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#TituloOtakus {
+	position: relative;
+	text-align: center;
+	margin: auto;
+	-webkit-text-stroke: 2px black;
+	color: white;
+	font-family: sans-serif;
+	top: 20px;
+	font-size: 50px;
+	//box-shadow: rgba(0,0,0,0);
+	background: rgba(0, 255, 0, 0.5);
+	width: 32%;
+	border-radius: 10px;
+}
+
+#publi1 {
+	position: fixed;
+	top: 250px;
+	left: 20px;
+	width: auto;
+
+}
+
+#publi2 {
+	position: fixed;
+	float: right;
+	margin-right: 20px;
+	left: 1570px;
+	top: 250px;
+	width: auto;
+}
+
+#japonmeme {
+	position: relative;
+	margin: auto;
+	margin-left: 465px;
+	top: 50px;
+	border: 5px solid rgba(0, 255, 0, 0.5);
+	overflow: hidden;
+	transition: all;
+	transition-duration: 1s;
+	width: 50%;
+}
+
+#japonmeme:hover {
+		transform: scale(110%);
+		top: 60px;
+	}
+
+.caja1 {
+	position: relative;
+	display: block;
+	background: rgba(255,255,255,0.7);
+	height: auto;
+	width: 60%;
+	top: 100px;
+	left: 364px;
+	font-family: sans-serif;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.caja1 h3 {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.caja1 iframe {
+	position: relative;
+	display: flex;
+	margin: auto;
+}
+
+#firstB::first-letter {
+	font-size: 50px;
+	color: green;
+}
+
+#imBlue {
+	margin-left: 10px;
+	height: 250px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#imanya {
+	position: relative;
+	margin-left: 10px;
+	height: 300px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+
+#firstA::first-letter {
+	font-size: 50px;
+	color: green;
+}
+
+#anyacos {
+	position: relative;
+	width: 450px;
+
+}
+
+#anyagif {
+	top: 461px;
+	left: 557px;
+	position: absolute;
+	width: 500px;
+}
+
+.caja1 p {
+	text-align: justify;
+	color: #5a5271;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
