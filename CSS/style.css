@@ -77,16 +77,16 @@ a:link{
 /*Menu PAG PRINCIP*/
 .menu{
 	background-color: black;
-	width: 1879px;
-	height: 739px;
+	width: 1920px;
+	height: 769px;
 	position: relative;
 	margin-left: 0px;
 }
 .botonMenu{
 	float: left;
 	margin: auto;
-	width: 620px;
-	height: 739px;
+	width: 640px;
+	height: 769px;
 	overflow: hidden;
 }
 .botonMenu img{
@@ -135,9 +135,9 @@ a:link{
 #clips{width: 400px;}
 #clips h2{width: 380px;}
 #fotoFinal{
-	top: -77px;
-	width: 1000px;
-	left: -193px;
+	top: -80px;
+    width: 1046px;
+    left: -207px;
 }
 /**/
 .footer {
