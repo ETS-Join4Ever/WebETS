@@ -1,0 +1,372 @@
+* {
+	margin: 0;
+}
+
+/*CABECERA*/
+header {
+	height: 12em;
+	background: linear-gradient(70deg, black, red, black);
+	text-align: center;
+	box-shadow: inset 0 0 10px black;
+}
+
+#logo {
+	margin-top: 30px;
+	height: 120px;
+}
+
+#navBar{
+	border-collapse: collapse;
+	border-spacing: 5px;
+}
+
+#fondobarra {
+	font-family: sans-serif;
+	border-radius: 20px;
+	background-color: white;
+	width: 450px;
+	margin: auto;
+}
+/**/
+
+/*Nueva Barra Navegación*/
+.barraNAV{
+	padding: 8px 15px 8px 15px;
+	background-color: white;
+	border-radius: 20px;
+	width: 130px;
+	transition: background-color .5s;
+
+}
+.barraNAV:hover{
+	background-color: black;
+	border-radius: 20px;
+}
+.barraNAV:hover a{color: white;}
+
+
+#botonIZQ{
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#botonCEN{
+	border-radius: 0px;
+}
+#botonDER{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+a{color: black;}
+
+a:link{
+	text-decoration: none;
+}
+
+#navBar a{
+	width: 100%;
+}
+/**/
+
+/*MAIN*/
+/* main{
+	height: 99%;
+} */
+/**/
+
+/*Menu PAG PRINCIP*/
+.menu{
+	background-color: black;
+	width: 1920px;
+	height: 769px;
+	position: relative;
+	margin-left: 0px;
+}
+.botonMenu{
+	float: left;
+	margin: auto;
+	width: 640px;
+	height: 769px;
+	overflow: hidden;
+}
+.botonMenu img{
+	bottom: 100px;
+	position: relative;
+	right: 240px;
+	scale: 1;
+	filter: blur(1px);
+	filter: saturate(0);
+	transition: all 0.5s;
+}
+.botonMenu:hover img{
+	scale: 1.1;
+	filter: blur(10px);
+	filter: saturate(100%);
+}
+.botonMenu h2{
+	background-color: rgb(255, 41, 41);
+	color: rgb(255, 255, 255);
+	height: 56px;
+	width: 250px;
+	position: relative;
+	z-index: 2;
+	margin: auto;
+	top: 80px;
+	text-align: center;
+	font: bold 42px Verdana;
+	text-transform: uppercase;
+	border-radius: 5px;
+	text-shadow: 0px 1px 11px black;
+	transition: top 0.7s, border-radius 0.8s 0.2s;
+}
+.botonMenu:hover h2{
+	top: 10px;
+	border-radius: 10px 100px / 120px;
+}
+.botonMenu div{
+	position: relative;
+	z-index: 2;
+	height: 70px;
+	width: 300px;
+	top: 300px;
+	margin: auto;
+	overflow: hidden;
+}
+#clips{width: 400px;}
+#clips h2{width: 380px;}
+#fotoFinal{
+	top: -80px;
+    width: 1046px;
+    left: -207px;
+}
+/**/
+.footer {
+	/* position: block; */
+	left: 0;
+	bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 100%;
+	height: 83px;
+	background: linear-gradient(70deg, black, red, black);
+}
+/*parte javi*/
+img.mascota2{
+	float: right;
+	transform: scaleX(-1);
+	width: 190px;
+	height: 190px;
+	filter: opacity(0%);
+	transition: filter 0.5s;
+}
+img.mascota{
+	float: left;
+	width: 190px;
+	height: 190px;
+	filter: opacity(0%);
+	transition: filter 0.5s;
+}
+header:hover .mascota{
+	filter: opacity(100%);
+}
+header:hover .mascota2{
+	filter: opacity(100%);
+}
+
+/*---------------------------------------------------------*/
+
+.container{
+	width: 100%;
+	height: 1600px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	background-image: url("https://wallpaper.dog/large/17048551.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.subcaja {
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	background: rgba(255,255,255,0.7);
+	border-radius: 2em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.subcaja img {
+	border-radius: 4em;
+	border: 5px green solid;
+	margin-top: 20px;
+	margin-left:5px;
+	margin-bottom: 25px;
+	box-shadow: 5px 5px 8px;
+	transition: transform 1s;
+}
+.subcaja img:hover {
+	transform: scale(1.1,1.1);
+}
+
+.subcaja div {
+	width: 400px;
+	position: relative;
+	top:65px;
+}
+
+.titu {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 23px;
+	box-shadow: 0px 6px 10px black ;
+	background-color: green;
+	color: white;
+	border-radius: 2em;
+	padding: 8px;
+}
+.subcaja p {
+	line-height: 1.5;
+	text-align: justify;
+}
+#golestitu {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 230px;
+}
+#goles {
+	width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+#goles img {
+	border-radius: 2em;
+	border:5px solid rgba(95, 95, 95, 1);
+}
+#puntaje {
+	max-height: 123px;
+	position: relative;
+	top:18px;
+	overflow: hidden;
+	text-align: center;
+	transition: max-height 1s;
+}
+#puntaje:hover {
+	max-height: 500px;
+}
+#puntaje table{
+	border-collapse: collapse;
+}
+#puntaje table tr td{
+	position: relative;
+	background: rgba(255,255,255,0.7);
+	width: 200px;
+	border:3px solid rgba(95, 95, 95, 1);
+}
+#penaltitu {
+	padding: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.paddingextra {
+	padding: 10px;
+}
+.marcador {
+	font-size: 100px;
+}
+.penal {
+	display: block;
+	position: absolute;
+	bottom:50px;
+	left:130px;
+	font-size: 20px;
+	
+}
+.subcaja2 {
+	width: 800px;
+	margin: auto;
+	margin-top: 30px;
+	background: rgba(255,255,255,0.7);
+	border-radius: 2em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.subcaja2 img {
+	border: 5px green solid;
+	margin-top: 20px;
+	margin-left:5px;
+	margin-bottom: 25px;
+	box-shadow: 5px 5px 8px;
+	transition: transform 1s;
+}
+.subcaja2 img:hover {
+	transform: scale(1.1,1.1);
+}
+.subcaja2 div {
+	width: 300px;	
+}
+.subcaja2 h2 {
+	width: 300px;	
+}
+.subcaja2 .contenido {
+	width: 370px;
+	position: relative;
+	top:50px;
+	
+}
+.subcaja2 p {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+#bgEquipos{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 105%;
+	min-height: 100%;
+	z-index: -2;
+	background: linear-gradient(70deg, black, red, black);
+}
+
+#title{
+	margin:auto;
+	padding: 2px;
+	text-align: center;
+	font: bold 48px arial;
+	text-transform: uppercase;
+	/* background-color: rgb(255, 255, 255); */
+	color: rgb(0, 0, 0);
+	width: 600px;
+	border-radius: 10px;
+	transition: border-radius 1s, scale 1s, color 1s, background-color 1s, box-shadow .4s;
+}
+.container:hover #title{
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	scale: 1.1;
+	color: white;
+	background-color: darkred;
+	box-shadow: 0 7px 0 #7f7f7f;
+}
+
+#publi1 {
+	position: fixed;
+	top: 250px;
+	left: 40px;
+	width: auto;
+
+}
+
+#publi2 {
+	position: fixed;
+	float: right;
+	left: 1500px;
+	top: 250px;
+	width: auto;
+}
