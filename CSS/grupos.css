@@ -12,6 +12,7 @@ header {
 	/* height: 80px;
 	background: linear-gradient(70deg, black, red, black);
 	text-align: center; */
+	z-index: 3;
 	position: fixed;
     top: 0;
 	height: 100px;
@@ -206,18 +207,15 @@ img.mascota{
 	border: solid 2px yellow;
 }
 
-#prueba{
+#QATAR{
 	width: 1025px;
-    height: 1177px;
-	overflow: hidden;
-	margin: auto;
-	border: 3px solid yellow;
-	background-color: black;
-	color: rgb(241, 200, 200);
-	margin-top:60px;
-	
-
-
+    height: 1230px;
+    /* overflow: hidden; */
+    margin: auto;
+    border: 3px solid yellow;
+    background-color: black;
+    color: rgb(241, 200, 200);
+    margin-top: 60px;
 }
 
 .fotoEquipo{
@@ -229,12 +227,13 @@ img.mascota{
 	background-repeat: no-repeat;
 }
 .entrenador{
-    height: 323px;
-    width: 396px;
-	background-color: #871537;
-	border: 1px solid yellow;
-	padding-left: 10px;
-	padding-top: 10px;
+    height: 345px;
+    width: 376px;
+    background-color: #871537;
+    border: 1px solid yellow;
+    padding-left: 10px;
+    padding-top: 10px;
+	float: right;
 }
 
 .entrenador img{
@@ -246,13 +245,15 @@ img.mascota{
 }
 
 .caracteristicasequipo{
-	height: 649px;
-	width: 627px;
-	background-color: crimson;
-	position: relative;
-	float: right;
-	padding-left: 10px;
-	padding-top: 10px;
+	height: 704px;
+    width: 627px;
+    background-color: crimson;
+    /* position: absolute; */
+    /* float: right; */
+    left: 473px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: right;
 }
 
 .caracteristicasequipo img{
@@ -262,3 +263,69 @@ img.mascota{
 	left: 142px;
 	bottom: 19px;
 }
+
+/*ECUADOR------------------*/
+
+#ECUADOR{
+	width: 1025px;
+    height: 1305px;
+    /* overflow: hidden; */
+    margin: auto;
+    border: 3px solid yellow;
+    background-color: black;
+    color: rgb(241, 200, 200);
+    margin-top: 60px;
+}
+
+.fotoEquipoECUADOR{
+	background-color: aqua;
+	height: 518px;
+    width: 1025px;
+	background-image: url(https://e00-especiales-marca.uecdn.es/mundial/images/selecciones/cintillos/ecuador2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.entrenadorECUADOR{
+    height: 383px;
+    width: 376px;
+    background-color: #871537;
+    border: 1px solid yellow;
+    padding-left: 10px;
+    padding-top: 10px;
+	float: right;
+}
+
+.entrenadorECUADOR img{
+	height: 206px;
+    width: 209px;
+	margin: auto;
+	background-color: white;
+	
+}
+
+.caracteristicasequipoECUADOR{
+	height: 780px;
+    width: 627px;
+    background-color: crimson;
+    /* position: absolute; */
+    /* float: right; */
+    left: 473px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+.caracteristicasequipoECUADOR img{
+	margin: 10px;
+	width: 283px;
+	position: relative;
+	left: 142px;
+	bottom: 19px;
+}
+
+h4{
+	border: solid 1px white;
+	border-radius: 15px 50px 30px 5px;
+}
+
+
