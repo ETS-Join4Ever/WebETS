@@ -204,36 +204,44 @@ img.mascota{
 
 .caracteristicas td{
 	width: 600px;
-	border: solid 2px yellow;
+	border: solid 2px rgb(163, 163, 163);
 }
 
 #QATAR{
 	width: 1025px;
-    height: 1230px;
+    height: 1305px;
     /* overflow: hidden; */
     margin: auto;
-    border: 3px solid yellow;
+
+	border: 3px solid rgb(146, 146, 146);
     background-color: black;
-    color: rgb(241, 200, 200);
+    color: rgb(255 247 247);
     margin-top: 60px;
+	box-shadow: inset 3px 1px 20px 0px black;
+	/* text-shadow: black 1em 1em 1em; */
+	text-shadow: -1px 0 black, 0 1px black,
+	1px 0 black, 0 -1px black
 }
 
 .fotoEquipo{
+	
+	background-image: url(https://e00-especiales-marca.uecdn.es/mundial/images/selecciones/cintillos/qatar3.jpg);
+	
 	background-color: aqua;
 	height: 518px;
     width: 1025px;
-	background-image: url(https://e00-especiales-marca.uecdn.es/mundial/images/selecciones/cintillos/qatar3.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 .entrenador{
-    height: 345px;
+    height: 383px;
     width: 376px;
     background-color: #871537;
-    border: 1px solid yellow;
+    border: 1px solid rgb(192, 190, 190);
     padding-left: 10px;
     padding-top: 10px;
 	float: right;
+    box-shadow: inset 3px 1px 20px 0px black;
 }
 
 .entrenador img{
@@ -241,19 +249,20 @@ img.mascota{
     width: 209px;
 	margin: auto;
 	background-color: white;
+	box-shadow: inset 2px 3px 20px 1px black;
 	
 }
 
 .caracteristicasequipo{
-	height: 704px;
+	height: 780px;
     width: 627px;
-    background-color: crimson;
+    background-color: #94001c;
     /* position: absolute; */
     /* float: right; */
     left: 473px;
     padding-left: 10px;
     padding-top: 10px;
-    float: right;
+    float: left;
 }
 
 .caracteristicasequipo img{
@@ -262,6 +271,7 @@ img.mascota{
 	position: relative;
 	left: 142px;
 	bottom: 19px;
+	box-shadow: black 6px 5px 20px 0px;
 }
 
 /*ECUADOR------------------*/
@@ -271,10 +281,15 @@ img.mascota{
     height: 1305px;
     /* overflow: hidden; */
     margin: auto;
-    border: 3px solid yellow;
+    border: 3px solid rgb(146, 146, 146);
     background-color: black;
-    color: rgb(241, 200, 200);
+    color: rgb(255 247 247);
     margin-top: 60px;
+	box-shadow: inset 3px 1px 20px 0px black;
+	/* text-shadow: black 1em 1em 1em; */
+	text-shadow: -1px 0 black, 0 1px black,
+	1px 0 black, 0 -1px black
+
 }
 
 .fotoEquipoECUADOR{
@@ -289,10 +304,12 @@ img.mascota{
     height: 383px;
     width: 376px;
     background-color: #871537;
-    border: 1px solid yellow;
+    border: 1px solid rgb(192, 190, 190);
     padding-left: 10px;
     padding-top: 10px;
 	float: right;
+    box-shadow: inset 3px 1px 20px 0px black;
+
 }
 
 .entrenadorECUADOR img{
@@ -300,13 +317,15 @@ img.mascota{
     width: 209px;
 	margin: auto;
 	background-color: white;
+	box-shadow: inset 2px 3px 20px 1px black;
+
 	
 }
 
 .caracteristicasequipoECUADOR{
 	height: 780px;
     width: 627px;
-    background-color: crimson;
+    background-color: #94001c;
     /* position: absolute; */
     /* float: right; */
     left: 473px;
@@ -321,11 +340,45 @@ img.mascota{
 	position: relative;
 	left: 142px;
 	bottom: 19px;
+	box-shadow: black 6px 5px 20px 0px;
 }
 
 h4{
 	border: solid 1px white;
-	border-radius: 15px 50px 30px 5px;
+    border-radius: 15px 84px 37px 57px;
+    background-color: rgb(124 7 7 / 59%);
+    padding: 7px;
+    padding-left: 10px;
+    padding-bottom: 13px;
+    width: 226px;
+    height: 17px;
+    margin-bottom: 10px;
+    box-shadow: inset 3px 1px 10px 0px black;
 }
 
 
+/* SENEGAL---------------------- */
+
+.fotoEquipoSENEGAL{
+	
+	background-image: url(https://e00-especiales-marca.uecdn.es/mundial/images/selecciones/cintillos/senegal2.jpg);
+	
+	background-color: aqua;
+	height: 518px;
+    width: 1025px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* SENEGAL---------------------- */
+
+.fotoEquipoPBAJOS{
+	
+	background-image: url(https://e00-especiales-marca.uecdn.es/mundial/images/selecciones/cintillos/paisesbajos2.jpg);
+	
+	background-color: aqua;
+	height: 518px;
+    width: 1025px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
