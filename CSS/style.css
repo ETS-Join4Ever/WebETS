@@ -141,14 +141,11 @@ a:link{
 }
 /**/
 .footer {
-	/* position: block; */
-	left: 0;
-	bottom: 0px;
-	margin-top: 0px;
-	padding-top: 0px;
-	width: 100%;
-	height: 83px;
-	background: linear-gradient(70deg, black, red, black);
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 83px;
+    background: linear-gradient(70deg, black, red, black);
 }
 /*parte javi*/
 img.mascota2{
@@ -191,7 +188,7 @@ Grupo H: Portugal, República de Corea, Uruguay, Ghana
 */
 .caja{
 	width: 100%;
-	height: 656px;
+	height: 686px;
 	margin-bottom: 0px;
 	background-image: linear-gradient(180deg, #05a562, #141414);
 }
