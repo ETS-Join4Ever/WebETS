@@ -92,10 +92,10 @@ header:hover .mascota2{
 	filter: opacity(100%);
 }
 
-/* #imagenesparalink {
+#imagenesparalink {
 	position: relative;
-    width: 1920px;
-    height: 768.5px;
+	width: 1920px;
+	height:712.5px;
 	margin: auto;
 	transition: all;
 	overflow: hidden;
@@ -144,33 +144,6 @@ header:hover .mascota2{
 #espana:hover {
 	filter: saturate(100%);
 	scale: 1.1;
-} */
+}
 
-.menu{
-	background-color: black;
-	width: 1920px;
-	height: 769px;
-	position: relative;
-	margin-left: 0px;
-}
-.botonMenu{
-	float: left;
-	margin: auto;
-	width: 640px;
-	height: 769px;
-	overflow: hidden;
-}
-.botonMenu img{
-	position: relative;
-	height: 770px;
-	scale: 1;
-	filter: blur(1px);
-	filter: saturate(0);
-	transition: all 0.5s;
-}
-.botonMenu:hover img{
-	scale: 1.1;
-	filter: blur(10px);
-	filter: saturate(100%);
-}
 
